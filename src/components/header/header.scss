@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  margin-bottom: 2rem;
+  &-delete-btn {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: crimson;
+    font-weight: 700;
+    transition: all 0.3s;
+    &:hover {
+      transform: translateY(3px);
+      box-shadow: rgba($color: #000000, $alpha: 0.03);
+    }
+  }
+}
+.header-title {
+  display: flex;
+  align-items: center;
+  button {
+    margin-right: 1rem;
+  }
+}
